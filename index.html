@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- imported font styles and fontawesome -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static.css">
+    <script src="https://kit.fontawesome.com/be26e9769f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- top half of website -->
+    <section id="sectionOne">
+        <!-- button bar across top -->
+        <div class="buttonz">
+            <!-- button to go to netflix.com and button for sign in -->
+            <div id="netflixButton" onclick="document.location='https:www.netflix.com/'"></div>
+            <div id="headerButton" onclick="document.location='https:www.netflix.com/login'">Sign In</div>
+        </div>
+        <!-- center text -->
+        <div class="bigText">
+            <h1>All of Netflix.<br>Free for 30 days.</h1>
+        </div>
+        <!-- top text floating above meter -->
+        <div class="firstBill">FIRST BILL</div>
+        <!-- bottom text floating above meter -->
+        <div class="barText">
+            <div id=thirty><b>Free 30 days</b></div>
+            <div id=first><b>1/9</b></div>
+            <div id=last><b>2/9</b></div>
+        </div>
+        <!-- wrapper for colored graphic -->
+        <div id="meterBar">
+            <!-- vertical line -->
+            <div id="barLine"></div>
+            <!-- meter shown as two halfs -->
+            <div class="meter"></div>
+            <div class="meter2"></div>
+        </div>
+        <!-- text bar with email icon -->
+        <div id="emailBar">
+            <span style="font-size: 1.2em; color: white;">
+                <i class="far fa-envelope">&nbsp;&nbsp;3 Day Reminder</i>
+            </span>
+        </div>
+        <!-- bottom bar of text, end of top section-->
+        <div id="section1End">
+            <h5>We'll email you a reminder three days before your trial ends.<br>Cancel anytime before 1/6 and you won't be charged.</h5>
+        </div>
+        <!-- wrapper for button -->
+        <div id="centerOnPage">
+            <div class="trial" onclick="document.location='https:www.netflix.com/signup?action=planSelectionWithContext&locale=en-US'">TRY 30 DAYS FREE ></div>
+        </div>
+        <!-- grey line separating page halves -->
+        <div class="pageBreak"></div>
+    </section>
+    <!-- start of bottom section -->
+    <section id="sectionTwo">
+        <!-- box to hold two half of the page side by side -->
+        <div id="sidebyside">
+            <!-- left half of the page -->
+            <div id="left">
+                <!-- text -->
+                <div id="bigText2">
+                    <h1>Enjoy on your TV.</h1>
+                    <h6>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h6>
+                </div>
+                <!-- button -->
+                <div id="trial2">
+                    <h3 onclick="document.location='https:www.netflix.com/signup?action=planSelectionWithContext&locale=en-US'">TRY 30 DAYS FREE ></h3>
+                </div>
+            <!-- right half of the page -->
+            </div>
+            <div class="right">
+                <!-- image (to be animated in the future) -->
+                <div class="picture">
+                    <img src="https://i.imgur.com/CpiXile.jpg">
+                </div>
+            </div>              
+        </div>
+    </section>
+    <!-- extra grey bar to separate page section -->
+    <div class="pageBreak"></div><br />
+</body>
+</html>
